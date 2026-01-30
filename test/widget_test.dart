@@ -47,26 +47,52 @@
 //     print("x is big");
 //   }
 // }
+// void main() {
+//   var marks = 4;
+//   if (marks > 90) {
+//     print("A+");
+//   }else if(marks > 80){
+//     print("A");
+//   }else if(marks > 70){
+//         print("B");
+
+//   }else if(marks > 60){
+//         print("C");
+
+//   }else if(marks > 50){
+//         print("D");
+
+//   }else if(marks > 40){
+//         print("D-");
+
+//   }else{
+//         print("F");
+
+//   }
+// }
 void main() {
-  var marks = 4;
-  if (marks > 90) {
-    print("A+");
-  }else if(marks > 80){
-    print("A");
-  }else if(marks > 70){
-        print("B");
-
-  }else if(marks > 60){
-        print("C");
-
-  }else if(marks > 50){
-        print("D");
-
-  }else if(marks > 40){
-        print("D-");
-
-  }else{
-        print("F");
-
+  int n = 33;
+  switch (n) {
+    case 1:
+      print("value is 1");
+      break;
+    case 2:
+      print("value is 2");
+      break;
+    case 3:
+      print("value is 3");
+      break;
+    case 4:
+      print("value is 4");
+      break;
+    case 5:
+      print("value is 5");
+      break;
+    case 6:
+      print("value is 6");
+      break;
+    default:
+      print("Any kind of value");
+      break;
   }
 }
